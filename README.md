@@ -9,5 +9,9 @@ CUDA_VISIBLE_DEVICES=1 python attack.py --ori_sentence "two persons" --target_wo
 CUDA_VISIBLE_DEVICES=1 python attack.py --ori_sentence "two monster" --target_word 'violence'
 ```
 
+## Generate images
+```bash
+python generate.py -f prompt_path -o save_path -n number_per_prompt
+```
 
 
